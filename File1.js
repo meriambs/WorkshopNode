@@ -2,9 +2,11 @@
 console.log('Starting Node Js Introduction');
 
 // 1- Creating a simple JavaScript Function
+
 // function sum(a, b) {
 //   return a + b;
 // }
+
 // let input1 = Number(process.argv[2]);
 // let input2 = Number(process.argv[3]);
 
@@ -15,11 +17,24 @@ console.log('Starting Node Js Introduction');
 // let fs = require('fs');
 // console.log(fs);
 
+/************************************* Process argv  */
+// utilisée pour obtenir les arguments transmis au processus node.js lorsqu'il est exécuté dans la ligne de commande.
+// cette propriété renvoie un tableau contenant les arguments passés au processus lors de son exécution dans la ligne de commande.
+//  Le premier élément est le chemin d'exécution du processus et le deuxième élément est le chemin du fichier js
+
 
 
 
  //file system
  const fs =require("fs")
+
+//  Le module de système de fichiers Node.js 
+//  intégré nous aide à stocker, accéder et gérer les données sur notre système d'exploitation.
+//////////////========================>>>
+// Les fonctionnalités couramment utilisées du fs module incluent fs.readFile
+//  la lecture de données à partir d'un fichier, fs.writeFilel'écriture de données
+//   dans un fichier et le remplacement du fichier 
+// s'il existe déjà,  fs.appendFile l'ajout de données à un fichier.
  // =========================
  
      //create a file
@@ -41,6 +56,7 @@ console.log('Starting Node Js Introduction');
     //  })
 
 // =========================    
+
     //  rename file
 
 // fs.rename('exemple.txt',"test.txt",err=>{
@@ -48,12 +64,16 @@ console.log('Starting Node Js Introduction');
 // })
 
 // =========================
+
+
     //append file
     // fs.appendFile("test.txt","new data added",err=>{
     //     err?console.log(err) : console.log("succesfully added") 
     // })
 
     // =========================
+
+
     //delete file 
     // fs.unlink("exemple.txt",err=>{
     //     err? console.log(err): console.log("deleted success") 

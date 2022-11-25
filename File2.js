@@ -16,6 +16,8 @@ console.log(process.argv)
 
 module.exports = {sum}
 
+
+
 // 3- NodeJS Third Party Module
 const uuid = require('uuid');
 function createUser(name, age) {
@@ -25,7 +27,6 @@ function createUser(name, age) {
     id: uuid.v4(),
   };
 }
-
 //Process.argv = ["Path" , "path" , "name" , "age",......]
 console.log(process.argv);
 const name = process.argv[2];
@@ -33,6 +34,7 @@ const age = process.argv[3];
 
 const user = createUser(name, age);
 console.log(user); //return an user object
+//ou generateur de password qui est dans votre checkpoint 
 
 
 

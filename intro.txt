@@ -1,7 +1,20 @@
 // what's node js?
-    // powerful runtime environment for executing javascript code / server side platform built on 
-    // google chrome's
-    //   javascript engine (V8 engine)
+    Node.js est un environnement d'exécution open source  permettant d'exécuter du code JavaScript 
+    en dehors d'un navigateur.
+
+     Vous devez vous rappeler que NodeJS n'est pas un framework et ce n'est pas un langage 
+    de programmation .
+    
+     La plupart des gens sont confus et comprennent qu'il s'agit d'un framework ou d'un langage de 
+    programmation. 
+    
+    Nous utilisons souvent Node.js pour créer des services back-end tels que des API telles que Web App ou Mobile App. 
+    Il est utilisé en production par de grandes entreprises telles que Paypal, Uber, Netflix, Walmart, etc.
+
+
+///https://www.geeksforgeeks.org/introduction-to-node-js/?ref=gcse
+
+
 
 // ==========> Architecture Node : 
 //             - javascript engine (every browser ) : js code---> js engine---->code machine
